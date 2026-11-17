@@ -9,7 +9,12 @@ class EntidadSistema(ABC):
     """
 
     def __init__(self, id_entidad):
-        self._id_entidad = id_entidad
+        if not isinstance(id_entidad, str) or not id_entidad.strip():
+            raise ValueError(
+                "El identificador de la entidad no puede estar vacío."
+            )
+
+        self._id_entidad = id_entidad.strip()
 
     @property
     def id_entidad(self):
@@ -18,3 +23,4 @@ class EntidadSistema(ABC):
     @abstractmethod
     def obtener_detalles(self):
         pass
+
