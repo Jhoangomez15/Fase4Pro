@@ -1,0 +1,43 @@
+2026-11-16 23:15:14,918 - INFO - Sistema Software FJ iniciado.
+2026-11-16 23:15:14,924 - INFO - Cliente registrado correctamente: Cliente: Ana Perez (ana@example.com)
+2026-11-16 23:15:14,925 - ERROR - Operación 2 - Error de cliente: El correo electrónico no es válido.
+2026-11-16 23:15:14,925 - INFO - Reserva de sala procesada: {'id_reserva': 'R01', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Reserva de sala: Sala de reuniones (capacidad: 10 personas)', 'duracion': 2, 'costo': 238000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:15:14,925 - INFO - Alquiler de equipos procesado: {'id_reserva': 'R02', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Alquiler de equipo: Computador [Serial: ABC123]', 'duracion': 2, 'costo': 100000, 'estado': 'PROCESADA'}
+2026-11-16 23:15:14,926 - INFO - Asesoría especializada procesada: {'id_reserva': 'R03', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Asesoría especializada: Consultoria informatica en área Ciberseguridad', 'duracion': 2, 'costo': 160000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:15:14,926 - ERROR - Operación 6 - Error de cliente: El teléfono debe tener entre 7 y 15 dígitos.
+2026-11-16 23:15:14,926 - ERROR - Operación 7 - Error de reserva: La duración debe ser un número entero mayor que cero.
+2026-11-16 23:15:14,927 - INFO - Reserva R05 cancelada correctamente. Estado: CANCELADA
+2026-11-16 23:15:14,927 - ERROR - Operación 9 - Error al procesar: La reserva debe estar confirmada para procesarse.
+2026-11-16 23:15:14,927 - ERROR - Operación 10 - Error en asesoría: El nivel de complejidad debe ser mayor que cero.
+2026-11-16 23:15:14,927 - INFO - Operación 10 finalizada.
+2026-11-16 23:29:44,534 - INFO - Sistema Software FJ iniciado.
+2026-11-16 23:29:44,543 - INFO - Cliente registrado correctamente: Cliente: Ana Perez (ana@example.com)
+2026-11-16 23:29:44,544 - ERROR - Operación 2 - Error de cliente: El correo electrónico no es válido.
+2026-11-16 23:29:44,544 - INFO - Reserva de sala procesada: {'id_reserva': 'R01', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Reserva de sala: Sala de reuniones (capacidad: 10 personas)', 'duracion': 2, 'costo': 238000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:29:44,544 - INFO - Alquiler de equipos procesado: {'id_reserva': 'R02', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Alquiler de equipo: Computador [Serial: ABC123]', 'duracion': 2, 'costo': 100000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:29:44,544 - INFO - Asesoría especializada procesada: {'id_reserva': 'R03', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Asesoría especializada: Consultoria informatica en área Ciberseguridad', 'duracion': 2, 'costo': 160000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:29:44,545 - ERROR - Operación 6 - Error de cliente: El teléfono debe tener entre 7 y 15 dígitos.
+2026-11-16 23:29:44,545 - ERROR - Operación 7 - Error de reserva: La duración debe ser un número entero mayor que cero.
+2026-11-16 23:29:44,545 - INFO - Reserva R05 cancelada correctamente. Estado: CANCELADA
+2026-11-16 23:29:44,545 - ERROR - Operación 9 - Error al procesar: La reserva debe estar confirmada para procesarse.
+2026-11-16 23:29:44,545 - ERROR - Operación 10 - Error en asesoría: El nivel de complejidad debe ser un número mayor que cero.
+2026-11-16 23:29:44,545 - INFO - Operación 10 finalizada.
+2026-11-16 23:31:37,039 - INFO - Sistema Software FJ iniciado.
+2026-11-16 23:31:37,048 - INFO - Cliente registrado correctamente: Cliente: Ana Perez (ana@example.com)
+2026-11-16 23:31:37,048 - ERROR - Operación 2 - Error de cliente: El correo electrónico no es válido.
+2026-11-16 23:31:37,049 - INFO - Reserva R01 confirmada.
+2026-11-16 23:31:37,049 - INFO - Reserva R01 procesada correctamente.
+2026-11-16 23:31:37,049 - INFO - Reserva de sala procesada: {'id_reserva': 'R01', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Reserva de sala: Sala de reuniones (capacidad: 10 personas)', 'duracion': 2, 'costo': 238000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:31:37,049 - INFO - Reserva R02 confirmada.
+2026-11-16 23:31:37,049 - INFO - Reserva R02 procesada correctamente.
+2026-11-16 23:31:37,050 - INFO - Alquiler de equipos procesado: {'id_reserva': 'R02', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Alquiler de equipo: Computador [Serial: ABC123]', 'duracion': 2, 'costo': 100000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:31:37,050 - INFO - Reserva R03 confirmada.
+2026-11-16 23:31:37,050 - INFO - Reserva R03 procesada correctamente.
+2026-11-16 23:31:37,050 - INFO - Asesoría especializada procesada: {'id_reserva': 'R03', 'cliente': 'Cliente: Ana Perez (ana@example.com)', 'servicio': 'Asesoría especializada: Consultoria informatica en área Ciberseguridad', 'duracion': 2, 'costo': 160000.0, 'estado': 'PROCESADA'}
+2026-11-16 23:31:37,050 - ERROR - Operación 6 - Error de cliente: El teléfono debe tener entre 7 y 15 dígitos.
+2026-11-16 23:31:37,050 - ERROR - Operación 7 - Error de reserva: La duración debe ser un número entero mayor que cero.
+2026-11-16 23:31:37,051 - INFO - Reserva R05 cancelada.
+2026-11-16 23:31:37,051 - INFO - Reserva R05 cancelada correctamente. Estado: CANCELADA
+2026-11-16 23:31:37,051 - ERROR - Operación 9 - Error al procesar: La reserva debe estar confirmada para procesarse.
+2026-11-16 23:31:37,051 - ERROR - Operación 10 - Error en asesoría: El nivel de complejidad debe ser un número mayor que cero.
+2026-11-16 23:31:37,051 - INFO - Operación 10 finalizada.
